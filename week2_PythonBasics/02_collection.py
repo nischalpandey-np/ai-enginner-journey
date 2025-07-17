@@ -44,7 +44,7 @@ student = {
     "skills": ["Python", "AI", "ML"]
 }
 student["age"] = 19
-student["city"] = "Kathmandu"
+student["city"] = "butwal"
 print("Dictionary:", student)
 print("Student Name:", student["name"])
 print("Student Skills:", ", ".join(student["skills"]))
