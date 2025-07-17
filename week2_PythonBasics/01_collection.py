@@ -1,10 +1,7 @@
-
 # `list`, `tuple`, `set`, and `dictionary`.
 
-
-
-
 ## 🧺 Python Collections Overview
+
 '''
 | Type    | Ordered | Mutable | Allows Duplicates | Syntax      |
 | ------- | ------- | ------- | ----------------- | ----------- |
