@@ -1,15 +1,10 @@
-tomExp=[234,234,23,43]
-joeExp=[239,33,23,115]
+def check_age(age):
+    if age < 18:
+        raise ValueError("You must be at least 18 years old.")
+    else:
+        print("You are eligible.")
 
-# create a function to calculate sum of each ... 
-
-def calculateTotal(exp):
-    total = 0
-    for item in exp:
-        total=total + item
-    return total
-
-tomsTotal = calculateTotal(tomExp)
-joesTotal=calculateTotal(joeExp)
-print(f"Tom's Total is {tomsTotal}")
-print(f"Joe's Total is {joesTotal}")
+try:
+    check_age(17)
+except ValueError as e:
+    print("Caught Exception:", e)
